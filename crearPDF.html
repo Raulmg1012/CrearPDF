@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="usuario">Nombre de usuario</label>
+    <input type="text" id="usuario">
+    <button id="login">Login</button>
+
+    <div id="panelPDF">
+        <ul id="listaPDF">
+            
+        </ul>
+    <button id="nuevoPDF">Nuevo PDF</button>
+    </div>
+    <div id="formularioPDF" hidden>
+        <form id="formulario"><br>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre"><br>
+            <label for="apellido1">Apellido 1</label>
+            <input type="text" id="apellido1"><br>
+            <label for="apellido2">Apellido 2</label>
+            <input type="text" id="apellido2"><br>
+            <label for="descripcion">Descripcion</label>
+            <input type="text" id="descripcion"><br><br>
+            <button id="crearPDF">Crear PDF</button>
+        </form>
+    
+    </div>
+
+    <script src="./crearPDF.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.debug.js"></script>-->
+
+</body>
+</html>
