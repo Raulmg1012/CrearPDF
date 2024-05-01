@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
 </head>
 <body>
+    <div>
     <label for="usuario">Nombre de usuario</label>
     <input type="text" id="usuario">
     <button id="login">Login</button>
+    </div>
+   
 
-    <div id="panelPDF">
+    <div id="panelPDF" hidden>
         <ul id="listaPDF">
             
         </ul>
     <button id="nuevoPDF">Nuevo PDF</button>
     </div>
     <div id="formularioPDF" hidden>
-        <form id="formulario"><br>
+        <form id="formulario" ><br>
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre"><br>
             <label for="apellido1">Apellido 1</label>
@@ -33,7 +38,6 @@
 
     <script src="./crearPDF.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.debug.js"></script>-->
 
 </body>

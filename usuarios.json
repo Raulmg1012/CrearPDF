@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": "f0aa",
+      "nombreusuario": "raul"
+    },
+    {
+      "id": "d64a",
+      "nombreusuario": "d"
+    },
+    {
+      "id": "38c0",
+      "nombreusuario": "vvvv"
+    },
+    {
+      "id": "c2aa",
+      "nombreusuario": "a"
+    },
+    {
+      "id": "ae49",
+      "nombreusuario": "aaaaaaaa"
+    },
+    {
+      "id": "f55c",
+      "nombreusuario": "aaaaaaa"
+    }
+  ],
+  "pdfs": [
+    {
+      "id": "29d3",
+      "nombreArchivo": "bbb.pdf",
+      "usuario": "raul"
+    }
+  ]
+}
